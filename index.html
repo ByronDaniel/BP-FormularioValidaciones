@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validaciones de formularios</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="form-container">
+        <h1 class="form-container__title">Formulario</h1>
+        <form>
+            <div class="form-container__section">
+                <label class="form_label" for="nombre">Nombre:</label>
+                <input id="inputNombre" class="form__input" type="text" name="nombre" placeholder="Nombre">
+                <span id="errorNombre" class="form__error"></span>
+            </div>
+            <div class="form-container__section">
+                <label class="form_label" for="apellido">Apellido:</label>
+                <input id="inputApellido" class="form__input" type="text" name="apellido" placeholder="Apellido">
+                <span id="errorApellido" class="form__error"></span>
+            </div>
+            <div class="form-container__section">
+                <label class="form_label" for="nombre">Cédula:</label>
+                <input id="inputCedula" class="form__input" type="text" name="cedula" placeholder="Cédula">
+                <span id="errorCedula" class="form__error"></span>
+            </div>
+            <div class="form-container__section">
+                <label class="form_label" for="nombre">Email:</label>
+                <input id="inputEmail" class="form__input" type="text" name="email" placeholder="Email">
+                <span id="errorEmail" class="form__error"></span>
+            </div>
+            <button class="form__submit" type="submit" id="formSubmit" value="Enviar" >Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
